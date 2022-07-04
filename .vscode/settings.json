@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/a05886bc-32af-4982-af97-850f164e0d07/microsoft.web/sites/subscriptions/a05886bc-32af-4982-af97-850f164e0d07/resourceGroups/cosmosdbresources/providers/Microsoft.Web/sites/CheezeGallery",
+    "appService.deploySubpath": "Controllers"
+}

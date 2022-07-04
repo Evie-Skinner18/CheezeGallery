@@ -1,0 +1,15 @@
+@model IEnumerable<CheezeGallery.Models.Cheese>
+
+@{
+    ViewData["Title"] = "Cheese Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">U want dis cheese MMMM</h1>
+
+    @foreach (var cheese in Model)
+    {
+        <h3>@Html.DisplayFor(modelCheese => cheese.Name)</h3>
+        <p>@Html.DisplayFor(modelCheese => cheese.Country)</p>
+    }
+</div>
