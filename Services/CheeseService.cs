@@ -30,4 +30,9 @@ public class CheeseService : ICheeseService
 
             return cheeses;
     }
+
+    public async Task CreateCheese(Cheese newCheese)
+    {
+        await _container.CreateItemAsync<Cheese>(newCheese, new PartitionKey(newCheese.Id));
+    }
 }
